@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input:focus{
+            color:red;
+        }
+        input::placeholder{
+            color:blue;
+        }
+    </style>
 </head>
 <body>
     <ul>
@@ -22,7 +30,7 @@
     </ul>
 
     <form>
-        <input type="text">
+        <input type="text" placeholder="enter your name">
         <select name="name" id="">
             <option value="" disabled> selection item</option>
             <option value="rana">sohfdfel</option>
